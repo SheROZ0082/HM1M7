@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/editNoteFragment">
+    <fragment
+        android:id="@+id/editNoteFragment"
+        android:name="com.example.hm1m7.Presentation.EditNoteFragment"
+        android:label="EditNoteFragment" />
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="com.example.hm1m7.Presentation.NoteFragment"
+        android:label="NoteFragment" />
+</navigation>
